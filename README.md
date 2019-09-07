@@ -1,2 +1,0 @@
-# karar
-asasa
