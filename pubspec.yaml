@@ -1,0 +1,23 @@
+name: karar_manager
+version: 1.0.0+1
+description: >-
+  Workforce payroll and expense management app with Firebase backend for managers and workers.
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_messaging: ^14.7.15
+  provider: ^6.1.1
+  intl: ^0.18.1
+  equatable: ^2.0.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
